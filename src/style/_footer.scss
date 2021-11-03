@@ -1,0 +1,23 @@
+.footer {
+  padding: 50px 0;
+
+  .col {
+    flex: 1;
+
+    p {
+      font-size: 14px;
+      line-height: 21px;
+      margin: 12px 0 19px;
+    }
+  }
+
+  .row {
+    display: flex;
+  }
+
+  &__item {
+    list-style: none;
+    font-size: 13px;
+    line-height: 21px;
+  }
+}

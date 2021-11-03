@@ -1,0 +1,38 @@
+.boosted-rev {
+  padding: 44px 0 45px;
+
+  .row {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+
+    .col {
+      max-width: 380px;
+      flex: 1;
+      position: relative;
+    }
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+    &__title {
+      font-size: 32px;
+      line-height: 38px;
+      margin-bottom: 21px;
+    }
+
+    &__text {
+      font-size: 15px;
+      line-height: 22px;
+      margin-bottom: 18px;
+    }
+
+    &__btn {
+      width: 101px;
+    }
+  }
+}

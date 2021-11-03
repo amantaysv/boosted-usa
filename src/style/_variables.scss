@@ -1,0 +1,62 @@
+.default-btn {
+  display: block;
+  width: 201px;
+  height: 33px;
+  border: none;
+  cursor: pointer;
+  background: #FF4A32;
+  border-radius: 35px;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.default-title {
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 51px;
+  text-align: center;
+}
+
+.default-subtitle {
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+
+  h3 {
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+.hover-dark {
+  position: relative;
+  &:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}

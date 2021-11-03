@@ -1,0 +1,21 @@
+.go{
+  padding: 35px 0 75px;
+  background-color: black;
+  .col{
+    color: #fff;
+    flex: 1;
+    text-align: center;
+    h3{
+      font-size: 32px;
+line-height: 36px;
+    }
+    p{
+      font-size: 15px;
+line-height: 22px;
+    }
+  }
+  .row{
+    display: flex;
+  }
+
+}

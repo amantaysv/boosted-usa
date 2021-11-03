@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url(../libs/slick/slick.css);
+@import url(../libs/slick/slick-theme.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@import './variables';
+
+@import './header';
+@import './home';
+@import './brands';
+@import "./looking";
+@import "./high-performance";
+@import "./boosted-rev";
+@import "./shop";
+@import './go';
+@import './footer';

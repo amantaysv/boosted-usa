@@ -1,0 +1,18 @@
+.high-performance {
+  background: url(../images/high-performance/bg.png) center / cover no-repeat;
+  height: 100vh;
+  padding-top: 44px;
+
+  &__title {
+    margin: 11px 0 15px;
+  }
+
+  &__subtitle {
+    max-width: 488px;
+    margin: 0 auto;
+  }
+
+  &__btn {
+    margin: 20px auto 0;
+  }
+}
